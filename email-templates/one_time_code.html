@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-patra - A premium mail service</title>
+    <link rel="stylesheet" href="./templates.css">
+    <link rel="shortcut icon" href="../assets/E-patra logo 1.png" type="image/x-icon">
+</head>
+
+<style>
+    @font-face {
+    font-family: 'Avenir LT Std Heavy';
+    src: url(../assets/Fonts/AvenirLTStd-Book.otf);
+}
+:root {
+    /* Fonts */
+    --content: "Avenir LT Std Heavy", sans-serif;
+    --heading: "Avenir LT Std Heavy", sans-serif;
+
+    /* Colors */
+    --blue: rgb(65, 179, 255);
+    --purple: #CFBDFC;
+    --black: #252525;
+    --white: #FFFFFF;
+    --mheading: #083979;
+     
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--white);
+    color: var(--black);
+    font-family: var(--content);
+    overflow-x: hidden;
+    font-size: 16px;
+    line-height: 1.6;
+    /* font-weight: 600; */
+}
+ .content .gap{
+   
+   margin-bottom: 16px;
+}
+ .content .biggap{
+   
+   margin-bottom: 58px;
+}
+.content .pAndT .privacy, 
+ .content .pAndT .terms{
+  color: var(--blue);  
+}
+
+</style>
+
+<body>
+    <div style="width: 100%;  display: flex; align-items: center; justify-content: center; flex-direction: column;  padding: 40px 160px;">
+        <div  href="./index.html" style="width: 800px; display: flex; align-items: center; justify-content: flex-start;  margin-bottom: 40px;">
+            <img src="../assets/E-patra logo 1.png" alt="Logo" style="  margin-right: 20px; width: 60px;  height: 60px;">
+            <div>
+                <div style="  font-size: 24px; color: var(--blue); font-weight: 600;">
+                    ePatra
+                </div>
+                <div style="  font-size: 18px;
+                color: var(--black);
+                font-weight: 600;">
+                    A premium email service
+                </div>
+            </div>
+        </div>
+
+        <div class="content" style="width: 800px; text-align: justify;">
+            <p class="warning gap"> Login activity detected for a new device: ACTION REQUIRED</p>
+            <p class="user gap">
+                Dear User,
+            </p>
+            <p class="details gap">Here is the your one-time authentication code. Please do not share this code with anyone. No one from E-patra will ever call you for this code.
+            </p>
+
+            <p class="verify gap">Please enter the following code for verification:</p>
+            <p><p class="code gap">#code</p></p>
+
+            <p class="gap"> If you didn't request this, you can ignore this email or let us know.</p>
+
+            <p class="queries biggap">
+                For any queries or concerns, <a href="https://e-patra.com/index.html"> contact us.</a>
+            </p>
+            <p class="regards gap">Warm regards, <br> <a href="https://e-patra.com/index.html" target="_blank">E-patra, an Anisoft
+                    company</a></p>
+
+            <p class="pAndT">
+                <a  href="https://e-patra.com/privacy.html" class="privacy"
+                    target="_blank" data-saferedirecturl="https://e-patra.com/privacy.html">
+                    Privacy
+                    Statement
+                </a> |
+                <a  href="https://e-patra.com/terms.html" class="terms"
+                    target="_blank" data-saferedirecturl="https://e-patra.com/terms.html">
+                    Terms
+                    Of Use
+                </a><br />
+                ©
+                <script>document.write(new Date().getFullYear());</script> E-patra, an Anisoft Company. All rights
+                reserved.
+            </p>
+        </div>
+
+       
+
+    </div>
+
+
+
+</body>
+
+</html>
